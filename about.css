@@ -1,0 +1,29 @@
+.aboutfirst
+{
+  text-align: center;
+}
+
+.about-box
+{
+  border:1px solid black;
+  text-align: center;
+  width:200px;
+  padding:30px;
+  margin:15px;
+}
+
+.about-contentbox
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-box i
+{
+  font-size:30px;
+}
+
+.about-box h4
+{
+  margin-bottom: 10px;
+}

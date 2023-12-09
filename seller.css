@@ -1,0 +1,18 @@
+.seller-img h4,h5
+{
+  text-align: center; 
+}
+
+.seller-container
+{
+  padding:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sellerimg
+{
+  width:250px;
+  height:250px;
+}

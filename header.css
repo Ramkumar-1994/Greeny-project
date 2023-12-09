@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@700&family=Pacifico&family=Poppins&display=swap');
+*
+{
+  margin:0px;
+  padding:0px;
+  font-family: 'Onest', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-left
+{
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.navbar-right ul li a
+{
+  text-decoration: none;
+  color:black;
+  font-weight: bolder;
+}
+
+.navbar-right ul li a:hover
+{
+  text-decoration: none;
+  color:rgb(124, 124, 124);
+  font-weight: bolder;
+}
+
+.navbar-right ul
+{
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-right ul li
+{
+  list-style: none;
+  margin-right:20px;
+}
+.navbar{
+  position: fixed;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height:50px;
+  background-color: rgb(204, 253, 235);
+  padding:10px;
+  box-shadow: 5px 5px 8px rgb(110, 110, 110);
+}
